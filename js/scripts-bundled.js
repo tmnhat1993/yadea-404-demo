@@ -74,8 +74,6 @@ $(document).ready(function () {
 
   if (window.innerWidth <= 768) {
     $video.src = 'video/Mobile.mp4';
-  } else {
-    $video.src = 'video/PC.mp4';
   }
 });
 
